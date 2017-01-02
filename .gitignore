@@ -4,10 +4,6 @@ npm-debug.log
 yarn.lock # Remove this one on your app
 
 
-# Build
-build/
-
-
 # Locales
 locales/
 !locales/en.json
@@ -31,3 +27,9 @@ desktop.ini
 
 # Default
 !.gitkeep
+
+# cordova
+hooks/
+platforms/
+plugins/
+www/

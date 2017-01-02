@@ -9,7 +9,7 @@ module.exports = {
     function () {
       this.plugin('done', (stats) => {
         fs.writeFileSync(
-          path.join(__dirname, '../build/assets.json'),
+          path.join(__dirname, '../www/assets.json'),
           `{"hash":"${stats.hash}"}`
         )
       })

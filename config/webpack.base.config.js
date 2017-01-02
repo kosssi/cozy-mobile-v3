@@ -10,7 +10,7 @@ const build = process.env.NODE_ENV === 'production'
 module.exports = {
   entry: path.resolve(__dirname, '../src/main'),
   output: {
-    path: path.resolve(__dirname, '../build'),
+    path: path.resolve(__dirname, '../www'),
     filename: build ? 'app.[hash].js' : 'app.js'
   },
   resolve: {

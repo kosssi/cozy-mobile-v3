@@ -3,9 +3,6 @@ matrix:
   fast_finish: true
 node_js:
 - '6'
-branches:
-  except:
-  - build
 env:
   global:
   - CXX=g++-4.8
