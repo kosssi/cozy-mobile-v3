@@ -7,7 +7,7 @@ import { render } from 'react-dom'
 import { Router, Route, Redirect, hashHistory } from 'react-router'
 import { I18n } from './plugins/preact-polyglot'
 
-import App from './components/App'
+import App from '../node_modules/cozy-files/src/components/App'
 import Table from './components/Table'
 
 const context = window.context
