@@ -22,6 +22,7 @@
     "url": "https://github.com/uhlryk/my-cordova-react-boilerplate.git"
   },
   "scripts": {
+    "build": "gulp prepare-build",
     "watch": "gulp prebuild-hot"
   },
   "license": "MIT",
@@ -30,6 +31,8 @@
     "url": "https://github.com/uhlryk/my-cordova-react-boilerplate/issues"
   },
   "dependencies": {
+    "material-ui": "^0.16.6",
+    "pouchdb": "^6.1.0",
     "react": "15.4.1",
     "react-dom": "15.4.1",
     "react-redux": "5.0.1",
@@ -62,6 +65,8 @@
     "ripple-emulator": "0.9.36",
     "run-sequence": "1.2.2",
     "style-loader": "0.13.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^2.4.0",
     "url-loader": "0.5.7",
     "webpack": "1.14.0",
     "webpack-dev-server": "1.16.2"
